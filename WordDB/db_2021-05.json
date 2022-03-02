@@ -1,0 +1,274 @@
+{
+  "rijecnik": [
+    {
+      "id": 1,
+      "name": "dan_od",
+      "currentVersion": "1",
+      "previousVersion": "1"
+    },
+    {
+      "id": 2,
+      "name": "dan_do",
+      "currentVersion": "30",
+      "previousVersion": "31"
+    },
+    {
+      "id": 3,
+      "name": "mjesec_tekuci",
+      "currentVersion": "4.",
+      "previousVersion": "3."
+    },
+    {
+      "id": 4,
+      "name": "mjesec_prethodni",
+      "currentVersion": "3.",
+      "previousVersion": "2."
+    },
+    {
+      "id": 5,
+      "name": "godina_tekuca",
+      "currentVersion": "2021",
+      "previousVersion": "2021"
+    },
+    {
+      "id": 6,
+      "name": "godina_prethodna",
+      "currentVersion": "2021",
+      "previousVersion": "2021"
+    },
+    {
+      "id": 7,
+      "name": "ePredemet_posjete",
+      "currentVersion": "86.271",
+      "previousVersion": "88.464"
+    },
+    {
+      "id": 8,
+      "name": "ePredmet_posjete_porast",
+      "currentVersion": "2% manje",
+      "previousVersion": "4% manje"
+    },
+    {
+      "id": 9,
+      "name": "OKP_poruke",
+      "currentVersion": "7.916",
+      "previousVersion": "9.003"
+    },
+    {
+      "id": 10,
+      "name": "eOglasna_objave_sve",
+      "currentVersion": "524.103",
+      "previousVersion": "519.672"
+    },
+    {
+      "id": 11,
+      "name": "eOglasna_objave_trajne",
+      "currentVersion": "418.972",
+      "previousVersion": "412.485"
+    },
+    {
+      "id": 12,
+      "name": "eOglasna_objave_trajne_posto",
+      "currentVersion": "80%",
+      "previousVersion": "79%"
+    },
+    {
+      "id": 13,
+      "name": "eOglasna_objave_porast",
+      "currentVersion": "povećalo se za 4.431",
+      "previousVersion": "povećalo se za 12.864"
+    },
+    {
+      "id": 14,
+      "name": "eOglasna_objave_dnevno",
+      "currentVersion": "1.130",
+      "previousVersion": "1.260"
+    },
+    {
+      "id": 15,
+      "name": "eOglasna_posjete",
+      "currentVersion": "68.177",
+      "previousVersion": "74.494"
+    },
+    {
+      "id": 16,
+      "name": "eOglasna_posjete_porast",
+      "currentVersion": "8% manje",
+      "previousVersion": "17% više"
+    },
+    {
+      "id": 17,
+      "name": "web_promet_promjena",
+      "currentVersion": "nešto niža",
+      "previousVersion": "nešto viša"
+    },
+    {
+      "id": 18,
+      "name": "verzije_ICMS_test",
+      "currentVersion": "5 verzija",
+      "previousVersion": "5 verzija"
+    },
+    {
+      "id": 19,
+      "name": "verzije_ICMS_prod",
+      "currentVersion": "1 verzija",
+      "previousVersion": "3 verzije"
+    },
+    {
+      "id": 20,
+      "name": "verzije_ICMS_adminprod",
+      "currentVersion": "0 verzija",
+      "previousVersion": "2 verzije"
+    },
+    {
+      "id": 21,
+      "name": "verzije_ICMS_admintest",
+      "currentVersion": "0 verzija",
+      "previousVersion": "2 verzije"
+    },
+    {
+      "id": 22,
+      "name": "dorade_korekcije_ICMS",
+      "currentVersion": "195",
+      "previousVersion": "215"
+    },
+    {
+      "id": 23,
+      "name": "zahtjevi_rijeseni_ICMS",
+      "currentVersion": "18",
+      "previousVersion": "32"
+    },
+    {
+      "id": 24,
+      "name": "zahtjevi_rijeseni_ukupno",
+      "currentVersion": "1.657",
+      "previousVersion": "1.444"
+    },
+    {
+      "id": 25,
+      "name": "icms_predmeti_novi_tjedno",
+      "currentVersion": "26.881",
+      "previousVersion": "29.527"
+    },
+    {
+      "id": 26,
+      "name": "icms_predmeti_promjene_tjedno",
+      "currentVersion": "404.866",
+      "previousVersion": "437.291"
+    },
+    {
+      "id": 27,
+      "name": "icms_predmeti_promjene_dnevno",
+      "currentVersion": "74.949",
+      "previousVersion": "85.002"
+    },
+    {
+      "id": 28,
+      "name": "icms_predmeti_ukupno",
+      "currentVersion": "12.940.100",
+      "previousVersion": "12.830.932"
+    },
+    {
+      "id": 29,
+      "name": "icms_korisnici",
+      "currentVersion": "7.604",
+      "previousVersion": "7.428"
+    },
+    {
+      "id": 30,
+      "name": "cts_predmeti_novi_tjedno",
+      "currentVersion": "4.537",
+      "previousVersion": "4.469"
+    },
+    {
+      "id": 31,
+      "name": "cts_predmeti_promjene_tjedno",
+      "currentVersion": "74.373",
+      "previousVersion": "79.162"
+    },
+    {
+      "id": 32,
+      "name": "cts_predmeti_promjene_dnevno",
+      "currentVersion": "14.276",
+      "previousVersion": "17.077"
+    },
+    {
+      "id": 33,
+      "name": "cts_predmeti_ukupno",
+      "currentVersion": "1.492.433",
+      "previousVersion": "1.473.165"
+    },
+    {
+      "id": 34,
+      "name": "cts_korisnici",
+      "currentVersion": "1.788",
+      "previousVersion": "1.789"
+    },
+    {
+      "id": 35,
+      "name": "verzije_CTS_test",
+      "currentVersion": "2 verzija",
+      "previousVersion": "0 verzija"
+    },
+    {
+      "id": 36,
+      "name": "verzije_CTS_prod",
+      "currentVersion": "3 verzije",
+      "previousVersion": "0 verzija"
+    },
+    {
+      "id": 37,
+      "name": "verzije_CTS_admintest",
+      "currentVersion": "0 verzija",
+      "previousVersion": "0 verzija"
+    },
+    {
+      "id": 38,
+      "name": "verzije_CTS_adminprod",
+      "currentVersion": "0 verzija",
+      "previousVersion": "0 verzija"
+    },
+    {
+      "id": 39,
+      "name": "dorade_korekcije_CTS",
+      "currentVersion": "0",
+      "previousVersion": "0"
+    },
+    {
+      "id": 40,
+      "name": "zahtjevi_rijeseni_CTS",
+      "currentVersion": "0",
+      "previousVersion": "1"
+    },
+    {
+      "id": 41,
+      "name": "cts_zahtjevi_rijeseni_ukupno",
+      "currentVersion": "113",
+      "previousVersion": "113"
+    },
+    {
+      "id": 42,
+      "name": "suUkpOsnovanih",
+      "currentVersion": "19.388",
+      "previousVersion": "22.186"
+    },
+    {
+      "id": 43,
+      "name": "suUkpOstalo",
+      "currentVersion": "12.849",
+      "previousVersion": "14.265"
+    },
+    {
+      "id": 44,
+      "name": "suUkpeOsnovanih",
+      "currentVersion": "18.843",
+      "previousVersion": "18.764"
+    },
+    {
+      "id": 45,
+      "name": "suUkpeOstalo",
+      "currentVersion": "5.200",
+      "previousVersion": "1.727"
+    }
+  ]
+}

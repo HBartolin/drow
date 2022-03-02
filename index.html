@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta Content-type= "application/javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verzije aplikacije</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+  </head>
+  <body onload="ucitaj.ucitajWord()">
+    <div class="container">
+      <div style="margin: 20px">
+        <button data-toggle="modal" onclick="fileUtils.exportWord()" style="margin-right: 10px" class="btn btn-primary btn-lg">Export in Word</button>
+        <button data-toggle="modal" onclick="fileUtils.novaVerzija()" class="btn btn-primary btn-lg">Nova verzija</button>
+      </div>
+
+      <div id="greska" class="alert alert-danger" style="display: none" role="alert" ></div>
+   
+      <table class="table table-sm table-striped">
+          <thead>
+              <tr>
+                  <th class="text-right">Id</th>
+                  <th>Naziv</th>
+                  <th>Trenutno</th>
+                  <th>Prošlo</th>
+              </tr>
+          </thead>
+          <tbody id="wordTablicaBody"></tbody>
+      </table>
+    </div>
+
+    <!-- <script src="https://unpkg.com/bootstrap" type="text/javascript"></script> -->
+    <script src="main.js"></script>
+    <script src="ucitajObj.js"></script> <!-- type="module" -->
+    <script src="promjenaPodatakaObj.js"></script>
+    <script src="fileUtilsObj.js"></script>
+  </body>
+</html>
