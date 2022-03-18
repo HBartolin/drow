@@ -1,0 +1,145 @@
+Sub zamjeniPolja()
+      Dim poljeDictionary
+    Set poljeDictionary = CreateObject("Scripting.Dictionary")
+    Const lPolje = 45
+    Dim polje(lPolje) As String
+    polje(0) = "dan_od####1"
+    poljeDictionary.Add "dan_od", "1"
+    polje(1) = "dan_do####31"
+    poljeDictionary.Add "dan_do", "31"
+    polje(2) = "mjesec_tekuci####1."
+    poljeDictionary.Add "mjesec_tekuci", "1."
+    polje(3) = "mjesec_prethodni####12."
+    poljeDictionary.Add "mjesec_prethodni", "12."
+    polje(4) = "godina_tekuca####2022"
+    poljeDictionary.Add "godina_tekuca", "2022"
+    polje(5) = "godina_prethodna####2021"
+    poljeDictionary.Add "godina_prethodna", "2021"
+    polje(6) = "ePredemet_posjete####109.694"
+    poljeDictionary.Add "ePredemet_posjete", "109.694"
+    polje(7) = "ePredmet_posjete_porast####24% manje"
+    poljeDictionary.Add "ePredmet_posjete_porast", "24% manje"
+    polje(8) = "OKP_poruke####10.322"
+    poljeDictionary.Add "OKP_poruke", "10.322"
+    polje(9) = "eOglasna_objave_sve####583.834"
+    poljeDictionary.Add "eOglasna_objave_sve", "583.834"
+    polje(10) = "eOglasna_objave_trajne####470.452"
+    poljeDictionary.Add "eOglasna_objave_trajne", "470.452"
+    polje(11) = "eOglasna_objave_trajne_posto####81%"
+    poljeDictionary.Add "eOglasna_objave_trajne_posto", "81%"
+    polje(12) = "eOglasna_objave_porast####povećalo se za 10.571"
+    poljeDictionary.Add "eOglasna_objave_porast", "povećalo se za 10.571"
+    polje(13) = "eOglasna_objave_dnevno####1.080"
+    poljeDictionary.Add "eOglasna_objave_dnevno", "1.080"
+    polje(14) = "eOglasna_posjete####64.507"
+    poljeDictionary.Add "eOglasna_posjete", "64.507"
+    polje(15) = "eOglasna_posjete_porast####36% manje"
+    poljeDictionary.Add "eOglasna_posjete_porast", "36% manje"
+    polje(16) = "web_promet_promjena####nešto niža"
+    poljeDictionary.Add "web_promet_promjena", "nešto niža"
+    polje(17) = "verzije_ICMS_test####2 verzije"
+    poljeDictionary.Add "verzije_ICMS_test", "2 verzije"
+    polje(18) = "verzije_ICMS_prod####2 verzije"
+    poljeDictionary.Add "verzije_ICMS_prod", "2 verzije"
+    polje(19) = "verzije_ICMS_admintest####5 verzija"
+    poljeDictionary.Add "verzije_ICMS_admintest", "5 verzija"
+    polje(20) = "verzije_ICMS_adminprod####5 verzija"
+    poljeDictionary.Add "verzije_ICMS_adminprod", "5 verzija"
+    polje(21) = "dorade_korekcije_ICMS####125"
+    poljeDictionary.Add "dorade_korekcije_ICMS", "125"
+    polje(22) = "zahtjevi_rijeseni_ICMS####11"
+    poljeDictionary.Add "zahtjevi_rijeseni_ICMS", "11"
+    polje(23) = "zahtjevi_rijeseni_ukupno####478"
+    poljeDictionary.Add "zahtjevi_rijeseni_ukupno", "478"
+    polje(24) = "icms_predmeti_novi_tjedno####31.587"
+    poljeDictionary.Add "icms_predmeti_novi_tjedno", "31.587"
+    polje(25) = "icms_predmeti_promjene_tjedno####534.042"
+    poljeDictionary.Add "icms_predmeti_promjene_tjedno", "534.042"
+    polje(26) = "icms_predmeti_promjene_dnevno####94.887"
+    poljeDictionary.Add "icms_predmeti_promjene_dnevno", "94.887"
+    polje(27) = "icms_predmeti_ukupno####14.419.277"
+    poljeDictionary.Add "icms_predmeti_ukupno", "14.419.277"
+    polje(28) = "icms_korisnici####7.571"
+    poljeDictionary.Add "icms_korisnici", "7.571"
+    polje(29) = "cts_predmeti_novi_tjedno####4.844"
+    poljeDictionary.Add "cts_predmeti_novi_tjedno", "4.844"
+    polje(30) = "cts_predmeti_promjene_tjedno####77.819"
+    poljeDictionary.Add "cts_predmeti_promjene_tjedno", "77.819"
+    polje(31) = "cts_predmeti_promjene_dnevno####14.585"
+    poljeDictionary.Add "cts_predmeti_promjene_dnevno", "14.585"
+    polje(32) = "cts_predmeti_ukupno####1.673.384"
+    poljeDictionary.Add "cts_predmeti_ukupno", "1.673.384"
+    polje(33) = "cts_korisnici####1.779"
+    poljeDictionary.Add "cts_korisnici", "1.779"
+    polje(34) = "verzije_CTS_test####4 verzije"
+    poljeDictionary.Add "verzije_CTS_test", "4 verzije"
+    polje(35) = "verzije_CTS_prod####5 verzija"
+    poljeDictionary.Add "verzije_CTS_prod", "5 verzija"
+    polje(36) = "verzije_CTS_admintest####1 verzija"
+    poljeDictionary.Add "verzije_CTS_admintest", "1 verzija"
+    polje(37) = "verzije_CTS_adminprod####1 verzija"
+    poljeDictionary.Add "verzije_CTS_adminprod", "1 verzija"
+    polje(38) = "dorade_korekcije_CTS####159"
+    poljeDictionary.Add "dorade_korekcije_CTS", "159"
+    polje(39) = "zahtjevi_rijeseni_CTS####4"
+    poljeDictionary.Add "zahtjevi_rijeseni_CTS", "4"
+    polje(40) = "cts_zahtjevi_rijeseni_ukupno####169"
+    poljeDictionary.Add "cts_zahtjevi_rijeseni_ukupno", "169"
+    polje(41) = "suUkpOsnovanih####20.438"
+    poljeDictionary.Add "suUkpOsnovanih", "20.438"
+    polje(42) = "suUkpOstalo####14.357"
+    poljeDictionary.Add "suUkpOstalo", "14.357"
+    polje(43) = "suUkpeOsnovanih####20.481"
+    poljeDictionary.Add "suUkpeOsnovanih", "20.481"
+    polje(44) = "suUkpeOstalo####2.403"
+    poljeDictionary.Add "suUkpeOstalo", "2.403"
+
+    
+    Dim docprop As DocumentProperties
+    Set docprop = ActiveDocument.CustomDocumentProperties
+    
+    Dim i, j As Integer
+    Const hes = "####"
+        
+    For i = 1 To docprop.Count
+        docprop.Item(i).Value = ""
+        
+        If poljeDictionary.Exists(docprop.Item(i).Name) Then
+            docprop.Item(i).Value = poljeDictionary(docprop.Item(i).Name)
+        End If
+        
+       'For j = 0 To lPolje - 1
+        '   Dim TestPos As Integer
+         '  TestPos = InStr(polje(j), hes)
+           
+          ' If (TestPos > 0) Then
+           ' TestPos = TestPos - 1
+          ' End If
+              
+           'If (docprop.Item(i).Name = Left(polje(j), TestPos)) Then
+            '    Dim vrijednost As String
+             '   vrijednost = Mid(polje(j), TestPos + Len(hes) + 1)
+              '  docprop.Item(i).Value = vrijednost
+           'End If
+      'Next
+    Next
+    
+    Dim report As String
+    report = ""
+    
+    For i = 1 To docprop.Count
+        If (docprop.Item(i).Value = "") Then
+            report = report + ", " + docprop.Item(i).Name
+        End If
+    Next
+    
+    If (Len(report) > 0) Then
+        Call MsgBox(report, Title:="Custom Document Properties")
+    End If
+    
+    Exit Sub
+    
+gr:
+    MsgBox Err.Number & ", " & Err.Description
+    
+End Sub
